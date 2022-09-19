@@ -4,7 +4,7 @@
 Create [Project Folder]
 Open VSCode
 Open Folder in VSCode
-Create Main Fyle main.py
+Create Main File main.py
 Open VSCode Terminal
 Create Virtual environment
 Type in terminal: python -m venv [Path to Project Folder]\.venv
@@ -20,53 +20,55 @@ Click Run
 \.venv\Scripts\get-pip.py
 ```
 ### Save/Install pip Packages To/From list
-// capture requirements to install
-pip freeze > requirements.txt
+Capture requirements to install
 
-// install requirements from requirements.txt
-pip install -r requirements.txt
+`pip freeze > requirements.txt`
 
-### Create VENV
-Create a virtual environment#
-To create a virtual environment, use the following command, where ".venv" is the name of the environment folder:
-```
-macOS/Linux
-You may need to run sudo apt-get install python3-venv first
-python3 -m venv .venv
+Install requirements from requirements.txt
 
-Windows
-You can also use 
-py -3 -m venv .venv
-python -m venv .venv
-```
-### TO ACTIVATE VENV
-Restart Terminal (optionally)
-```
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-.venv\scripts\activate
-```
-### TO DEACTIVATE VENV
-deactivate
+`pip install -r requirements.txt`
 
-#UPGRADE PIP:
-pip install -U setuptools
-D:\.......\Python\.venv\scripts\python.exe -m pip install --upgrade pip
+### Pip List Outdated
+
+`pip list -o`
+
+### Pip Upgrade One Package
+
+`pip install PACKAGENAME -U`
+
+### Pip Upgrade All Packages
+Works on Windows. Should be good for others too.
+($ is whatever directory you're in, in command prompt. eg. C:/Users/Username>)
+
+do
+
+    $ pip freeze > requirements.txt
+
+open the text file, replace the `==` with `>=` , and execute 
 
 
-Better to add venv to workspace like this:
-```
-{
-	"folders": [
-		{
-			"path": "Python"
-		}
-	],
-	"settings": {
-		"files.autoSave": "onFocusChange",
-		"python.pythonPath": ".venv\\Scripts\\python.exe"
-	}
-}
-```
+    $ pip install -r requirements.txt --upgrade
+
+If you have a problem with a certain package stalling the upgrade (numpy sometimes), just go to the directory ($), comment out the name (add a # before it) and run the upgrade again. You can later uncomment that section back. This is also great for copying python global environments.
+
+___
+**Another way:**
+
+I also like the pip-review method:
+    
+    py2
+    $ pip install pip-review
+
+    $ pip-review --local --interactive
+
+    py3
+    $ pip3 install pip-review
+
+    $ py -3 -m pip_review --local --interactive
+
+You can select 'a' to upgrade all packages; if one upgrade fails, run it again and it continues at the next one.
+
+
 
 # Jupyter
 
