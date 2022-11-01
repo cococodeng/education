@@ -1,0 +1,21 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "showLineNumber": true,
+  "readableLineLength": false,
+  "attachmentFolderPath": "./attachments",
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "ru",
+    "en-US"
+  ],
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "showUnsupportedFiles": false,
+  "useMarkdownLinks": false,
+  "userIgnoreFilters": [
+    "Obsidian/"
+  ],
+  "showFrontmatter": false,
+  "alwaysUpdateLinks": false
+}

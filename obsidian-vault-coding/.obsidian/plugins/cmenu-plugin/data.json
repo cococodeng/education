@@ -1,0 +1,149 @@
+{
+  "aestheticStyle": "default",
+  "menuCommands": [
+    {
+      "id": "cmenu-plugin:editor:toggle-bold",
+      "name": "cMenu: Toggle bold",
+      "icon": "bold-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-italics",
+      "name": "cMenu: Toggle italics",
+      "icon": "italic-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-strikethrough",
+      "name": "cMenu: Toggle strikethrough",
+      "icon": "strikethrough-glyph"
+    },
+    {
+      "id": "cmenu-plugin:underline",
+      "name": "cMenu: Toggle underline",
+      "icon": "underline-glyph"
+    },
+    {
+      "id": "cmenu-plugin:superscript",
+      "name": "cMenu: Toggle superscript",
+      "icon": "superscript-glyph"
+    },
+    {
+      "id": "cmenu-plugin:subscript",
+      "name": "cMenu: Toggle subscript",
+      "icon": "subscript-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-code",
+      "name": "cMenu: Toggle code",
+      "icon": "code-glyph"
+    },
+    {
+      "id": "cmenu-plugin:codeblock",
+      "name": "cMenu: Toggle codeblock",
+      "icon": "codeblock-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-blockquote",
+      "name": "cMenu: Toggle blockquote",
+      "icon": "quote-glyph"
+    },
+    {
+      "id": "workspace:split-vertical",
+      "name": "Split vertically",
+      "icon": "vertical-split"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-bullet-list",
+      "name": "cMenu: Toggle bullet",
+      "icon": "bullet-list-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-numbered-list",
+      "name": "cMenu: Toggle numbered list",
+      "icon": "number-list-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-checklist-status",
+      "name": "cMenu: Toggle checklist status",
+      "icon": "checkbox-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-comments",
+      "name": "cMenu: Toggle comment",
+      "icon": "percent-sign-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-highlight",
+      "name": "cMenu: Toggle highlight",
+      "icon": "highlight-glyph"
+    },
+    {
+      "id": "editor:insert-callout",
+      "name": "Insert callout",
+      "icon": "quote-glyph"
+    },
+    {
+      "id": "editor:fold-all",
+      "name": "Fold all headings and lists",
+      "icon": "lucide-minimize-2",
+      "allowPreview": true
+    },
+    {
+      "id": "editor:unfold-all",
+      "name": "Unfold all headings and lists",
+      "icon": "lucide-maximize-2",
+      "allowPreview": true
+    },
+    {
+      "id": "insert-template",
+      "name": "Templates: Insert template",
+      "icon": "lucide-copy"
+    },
+    {
+      "id": "obsidian-admonition:insert-callout",
+      "name": "Admonition: Insert Callout",
+      "icon": "quote-glyph"
+    },
+    {
+      "id": "file-explorer:move-file",
+      "name": "Move current file to another folder",
+      "icon": "lucide-folder-tree"
+    },
+    {
+      "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout",
+      "name": "Excalidraw: Create a new drawing - IN A POPOUT WINDOW - and embed into active document",
+      "icon": "feather-pen-tool"
+    },
+    {
+      "id": "obsidian-zoom:zoom-in",
+      "name": "Zoom: Zoom in",
+      "icon": "zoom-in",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "."
+        }
+      ]
+    },
+    {
+      "id": "obsidian-zoom:zoom-out",
+      "name": "Zoom: Zoom out the entire document",
+      "icon": "zoom-out",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift"
+          ],
+          "key": "."
+        }
+      ]
+    }
+  ],
+  "appendMethod": "workspace",
+  "shouldShowMenuOnSelect": false,
+  "cMenuVisibility": true,
+  "cMenuBottomValue": 2,
+  "cMenuNumRows": 8
+}

@@ -1,0 +1,54 @@
+div[aria-label = "Open Markdown Formatting Assistant"]{
+  color: #234E70;
+  background: #FBF8BE;
+}
+div[aria-label = "Advanced Tables Toolbar"]{
+  color: #234E70;
+  background: #FBF8BE;
+}
+
+
+
+div[aria-label = "Open today's daily note"]{
+  color: white;
+  background: #00acff;
+}
+div[aria-label = "Create new unique note"]{
+  color: white;
+  background: #0f6196;
+}
+div[aria-label = "Open this week"]{
+  color: white;
+  background: #00acff;
+}
+
+
+div[aria-label = "Open graph view"]{
+  color: #FDF5A6;
+  background: #072C50;
+}
+div[aria-label = "Insert template"]{
+  color: #B88746 ;
+  background: #191919;
+}
+div[aria-label = "New Excalidraw drawing"]{
+  color: #FBF8BE;
+  background: #234E70;
+}
+
+
+div[aria-label = "Omnisearch"]{
+  color: #2B3252;
+  background: #FAD744;
+}
+div[aria-label = "Open quick switcher"]{
+  color: #2B3252;
+  background: #FAD744;
+}
+
+
+
+div[aria-label = "Open command palette"]{
+  color: #07ed1d;
+  background: #000000;
+}

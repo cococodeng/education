@@ -1,0 +1,9 @@
+{
+  "pinned": [
+    "workspace:split-vertical",
+    "editor:fold-all",
+    "editor:unfold-all",
+    "file-explorer:move-file",
+    "insert-template"
+  ]
+}

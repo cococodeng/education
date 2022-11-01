@@ -1,0 +1,132 @@
+{
+  "main": {
+    "id": "7dcfa724b611b263",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ec9b8fc35356284",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c8e1c56799da160",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a3a3b5c76afa019",
+    "type": "split",
+    "children": [
+      {
+        "id": "7519a0b534a0ae8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "324a1ceacde8a426",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2aa5262b53530cef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#coding_books",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259.5
+  },
+  "right": {
+    "id": "43a5b2de511875e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "6780dcab44b44b9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4211af97ca97839c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "d19620f887102f04",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e054e5bdfbf08b6c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "760afd3733945524",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 316.5
+  },
+  "active": "4c8e1c56799da160",
+  "lastOpenFiles": [
+    "Coding Guides.md",
+    "Coding Books List.md",
+    "Periodic Notes/Daily Notes/2022-11-11.md",
+    "Periodic Notes/Yearly Notes/Readme - Yearly Notes.md",
+    "Periodic Notes/Weekly Notes/Readme - Weekly Notes.md",
+    "Periodic Notes/Unique Notes/Readme - Unique Notes.md",
+    "Periodic Notes/Unique Notes/2022-11-09-1558.md",
+    "Periodic Notes/Monthly Notes/Readme - Monthly Notes.md",
+    "Periodic Notes/Daily Notes 1/Readme - Daily Notes.md",
+    "Periodic Notes/Daily Notes/Readme - Daily Notes.md"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "cssTheme": "Atom",
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
+  "theme": "obsidian",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "image-sizes",
+    "left_panel"
+  ],
+  "showViewHeader": true,
+  "nativeMenus": false
+}

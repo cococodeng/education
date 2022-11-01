@@ -1,0 +1,33 @@
+.markdown-preview-view img[alt="sm"] {
+  width: max(300px,30%);
+  max-height:auto;
+}
+.markdown-preview-view img[alt="md"] {
+  width: max(500px,50%);
+  max-height:auto;
+}
+.markdown-preview-view img[alt="lg"] {
+  width: max(1080px,70%);
+  max-height:auto;
+}
+
+.markdown-preview-view img[alt="10pc"] {
+  width: 10%;
+  max-height:auto;
+}
+
+.markdown-preview-view img[alt="25pc"] {
+  width: 25%;
+  max-height:auto;
+}
+
+.markdown-preview-view img[alt="50pc"] {
+  width: 50%;
+  max-height:auto;
+}
+
+.markdown-preview-view img[alt="75pc"] {
+  width: 75%;
+  max-height:auto;
+}
+
