@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Notes",
-      "path": "Notes.md"
+      "basename": "SWTM-2088_Atlassian-Git-Cheatsheet",
+      "path": "Git Notes/Git Cheatsheets/SWTM-2088_Atlassian-Git-Cheatsheet.pdf"
     },
     {
-      "basename": "Inspiration",
-      "path": "Inspiration.md"
+      "basename": "git-cheat-sheet-education",
+      "path": "Git Notes/Git Cheatsheets/git-cheat-sheet-education.pdf"
+    },
+    {
+      "basename": "Coding Guides",
+      "path": "Coding Guides.md"
     },
     {
       "basename": "Education Plan",
       "path": "Education Plan.md"
     },
     {
+      "basename": "Inspiration",
+      "path": "Inspiration.md"
+    },
+    {
       "basename": "Coding Videos",
       "path": "Coding Videos.md"
     },
     {
-      "basename": "Coding Guides",
-      "path": "Coding Guides.md"
+      "basename": "Coding Books List",
+      "path": "Coding Books List.md"
+    },
+    {
+      "basename": "Notes",
+      "path": "Notes.md"
     },
     {
       "basename": "Linux Quick Tips",
