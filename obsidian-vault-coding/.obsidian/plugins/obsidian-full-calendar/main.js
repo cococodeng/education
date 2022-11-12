@@ -52070,7 +52070,13 @@ var main_default6 = main6;
 function renderCalendar(containerEl, eventSources, settings) {
   var _a;
   const isMobile = window.innerWidth < 500;
-  const { eventClick, select, modifyEvent, eventMouseEnter } = settings || {};
+  const {
+    eventClick,
+    select,
+    modifyEvent,
+    eventMouseEnter,
+    openContextMenuForEvent
+  } = settings || {};
   const modifyEventCallback = modifyEvent && ((_0) => __async(this, [_0], function* ({
     event,
     oldEvent,
@@ -52094,14 +52100,15 @@ function renderCalendar(containerEl, eventSources, settings) {
     initialView: ((_a = settings == null ? void 0 : settings.initialView) == null ? void 0 : _a[isMobile ? "mobile" : "desktop"]) || (isMobile ? "timeGrid3Days" : "timeGridWeek"),
     nowIndicator: true,
     scrollTimeReset: false,
-    headerToolbar: isMobile ? {
-      right: "today,prev,next",
-      left: "timeGrid3Days,timeGridDay,listWeek"
-    } : {
+    headerToolbar: !isMobile ? {
       left: "prev,next today",
       center: "title",
       right: "dayGridMonth,timeGridWeek,timeGridDay,listWeek"
-    },
+    } : false,
+    footerToolbar: isMobile ? {
+      right: "today,prev,next",
+      left: "timeGrid3Days,timeGridDay,listWeek"
+    } : false,
     views: {
       timeGridDay: {
         type: "timeGrid",
@@ -52138,7 +52145,14 @@ function renderCalendar(containerEl, eventSources, settings) {
     editable: modifyEvent && true,
     eventDrop: modifyEventCallback,
     eventResize: modifyEventCallback,
-    eventMouseEnter
+    eventMouseEnter,
+    eventDidMount: ({ event, el }) => {
+      el.addEventListener("contextmenu", (e3) => {
+        e3.preventDefault();
+        openContextMenuForEvent && openContextMenuForEvent(event, e3);
+      });
+    },
+    longPressDelay: 250
   }));
   cal.render();
   return cal;
@@ -52498,6 +52512,25 @@ function modifyFrontmatter(vault, file, modifications) {
   });
 }
 
+// src/models/util.ts
+function getColors(color) {
+  let textVar = getComputedStyle(document.body).getPropertyValue("--text-on-accent");
+  if (color) {
+    const m2 = color.slice(1).match(color.length == 7 ? /(\S{2})/g : /(\S{1})/g);
+    if (m2) {
+      const r3 = parseInt(m2[0], 16), g3 = parseInt(m2[1], 16), b3 = parseInt(m2[2], 16);
+      const brightness = (r3 * 299 + g3 * 587 + b3 * 114) / 1e3;
+      if (brightness > 114) {
+        textVar = "black";
+      }
+    }
+  }
+  return {
+    color: color || getComputedStyle(document.body).getPropertyValue("--interactive-accent"),
+    textColor: textVar
+  };
+}
+
 // src/models/Event.ts
 function basenameFromEvent(event) {
   switch (event.type) {
@@ -52524,10 +52557,7 @@ var _CalendarEvent = class {
     return __spreadValues({}, this._data);
   }
   addTo(calendar, source) {
-    calendar.addEvent(__spreadValues({
-      color: source.color || getComputedStyle(document.body).getPropertyValue("--interactive-accent"),
-      textColor: getComputedStyle(document.body).getPropertyValue("--text-on-accent")
-    }, this.toCalendarEvent()));
+    calendar.addEvent(__spreadValues(__spreadValues({}, getColors(source.color)), this.toCalendarEvent()));
   }
 };
 var CalendarEvent = _CalendarEvent;
@@ -53047,7 +53077,7 @@ var IcsSource = class extends EventSource {
           return new FCError(`There was an error loading a calendar. Check the console for full details.`);
         }
       });
-      return {
+      return __spreadValues({
         events: function(_0) {
           return __async(this, arguments, function* ({ start, end }) {
             const ical = yield getExpander();
@@ -53061,10 +53091,8 @@ var IcsSource = class extends EventSource {
             return events;
           });
         },
-        editable: false,
-        textColor: getComputedStyle(document.body).getPropertyValue("--text-on-accent"),
-        color: this.info.color || getComputedStyle(document.body).getPropertyValue("--interactive-accent")
-      };
+        editable: false
+      }, getColors(this.info.color));
     });
   }
 };
@@ -53108,11 +53136,9 @@ var NoteSource = class extends EventSource {
       if (events instanceof FCError) {
         return events;
       }
-      return {
-        events,
-        textColor: getComputedStyle(document.body).getPropertyValue("--text-on-accent"),
-        color: this.info.color || getComputedStyle(document.body).getPropertyValue("--interactive-accent")
-      };
+      return __spreadValues({
+        events
+      }, getColors(this.info.color));
     });
   }
 };
@@ -53268,7 +53294,7 @@ var RemoteSource = class extends EventSource {
           ];
         }
       });
-      return {
+      return __spreadValues({
         events: function(_0) {
           return __async(this, arguments, function* ({ start, end }) {
             const icals = yield getExpanders();
@@ -53287,10 +53313,8 @@ var RemoteSource = class extends EventSource {
             return events;
           });
         },
-        editable: false,
-        textColor: getComputedStyle(document.body).getPropertyValue("--text-on-accent"),
-        color: this.info.color || getComputedStyle(document.body).getPropertyValue("--interactive-accent")
-      };
+        editable: false
+      }, getColors(this.info.color));
     });
   }
 };
@@ -53883,7 +53907,27 @@ var CalendarView = class extends import_obsidian8.ItemView {
         }),
         firstDay: this.plugin.settings.firstDay,
         initialView: this.plugin.settings.initialView,
-        timeFormat24h: this.plugin.settings.timeFormat24h
+        timeFormat24h: this.plugin.settings.timeFormat24h,
+        openContextMenuForEvent: (e3, mouseEvent) => __async(this, null, function* () {
+          const menu = new import_obsidian8.Menu(this.app);
+          const event = yield eventFromCalendarId(this.app.metadataCache, this.app.vault, e3.id);
+          if (event instanceof LocalEvent) {
+            menu.addItem((item) => item.setTitle("Go to note").onClick(() => {
+              let leaf = this.app.workspace.getMostRecentLeaf();
+              event.openIn(leaf);
+              new import_obsidian8.Notice(`Opening "${e3.title}"`);
+            }));
+            menu.addItem((item) => item.setTitle("Delete").onClick(() => __async(this, null, function* () {
+              yield event.delete();
+              new import_obsidian8.Notice(`Deleted event "${e3.title}".`);
+            })));
+          } else {
+            menu.addItem((item) => {
+              item.setTitle("No actions available on remote events").setDisabled(true);
+            });
+          }
+          menu.showAtMouseEvent(mouseEvent);
+        })
       });
       this.plugin.settings.calendarSources.flatMap((s3) => s3.type === "ical" ? [s3] : []).map((s3) => new IcsSource(s3)).map((s3) => s3.toApi()).forEach((resultPromise) => resultPromise.then((result) => {
         var _a;

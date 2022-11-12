@@ -1,4 +1,5 @@
 {
-  "dateFormat": "YYYY.MM.DD",
-  "folder": "Obsidian Extras/Obsidian Templates"
+  "folder": "Obsidian Extras/Obsidian Templates",
+  "dateFormat": "YYYY-MM-DD",
+  "timeFormat": "HH:mm"
 }

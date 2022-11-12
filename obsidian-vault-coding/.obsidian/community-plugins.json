@@ -11,8 +11,9 @@
   "obsidian-excalidraw-plugin",
   "obsidian-zoom",
   "cm-editor-syntax-highlight-obsidian",
+  "recent-files-obsidian",
   "omnisearch",
+  "periodic-notes",
   "tag-wrangler",
-  "obsidian-checklist-plugin",
-  "periodic-notes"
+  "obsidian-checklist-plugin"
 ]

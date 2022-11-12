@@ -1,3 +1,9 @@
+/*
+CSS Notes:
+https://looka.com/blog/logo-color-combinations/
+
+*/
+
 div[aria-label = "Open Markdown Formatting Assistant"]{
   color: #234E70;
   background: #FBF8BE;
@@ -10,16 +16,22 @@ div[aria-label = "Advanced Tables Toolbar"]{
 
 
 div[aria-label = "Open today's daily note"]{
-  color: white;
-  background: #00acff;
-}
-div[aria-label = "Create new unique note"]{
-  color: white;
-  background: #0f6196;
+  color: #8BD8BD;
+  background: #243665;
 }
 div[aria-label = "Open this week"]{
-  color: white;
-  background: #00acff;
+  color: #8BD8BD;
+  background: #243665;
+}
+div[aria-label = "Create new unique note"]{
+  color: #F7F7F9;
+  background: #D2302C;
+}
+
+
+div[aria-label = "Open format converter"]{
+  color: #FDF5A6;
+  background: #072C50;
 }
 
 
@@ -52,3 +64,4 @@ div[aria-label = "Open command palette"]{
   color: #07ed1d;
   background: #000000;
 }
+

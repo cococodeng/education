@@ -43,6 +43,9 @@
     }
   ],
   "table-editor-obsidian:table-control-bar": [],
+  "obsidian-excalidraw-plugin:save": [],
+  "obsidian-excalidraw-plugin:toggle-lock": [],
+  "obsidian-excalidraw-plugin:insert-link": [],
   "app:open-vault": [
     {
       "modifiers": [],
@@ -56,6 +59,26 @@
         "Shift"
       ],
       "key": "O"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "insert-current-time": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "starred:star-current-file": [],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
     }
   ]
 }

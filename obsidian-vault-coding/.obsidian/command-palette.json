@@ -1,9 +1,10 @@
 {
   "pinned": [
-    "workspace:split-vertical",
     "editor:fold-all",
     "editor:unfold-all",
     "file-explorer:move-file",
-    "insert-template"
+    "insert-template",
+    "obsidian-text-format:text-format-capitalize-word",
+    "obsidian-text-format:text-format-capitalize-sentence"
   ]
 }

@@ -27,7 +27,7 @@ module unload texlive
 module load texlive
 ```
 
-**Symink** #linux/symlink
+**Symink** #linux/symlink 
 Сделать и проверить симлинк
 Пример:
 ```bash
@@ -37,7 +37,7 @@ ln -s /usr/corpneo/20220608.tar.gz 20220608.tar.gz
 ln -s %FULL_PATH_TO_ORIGINAL_FILE% %DESIRED_SYMLINK_NAME%
 ```
 Затем сделать `ls -lah`, убедиться что у созданного симлинка аттрибут `l` (link) и вес до ~200 байт.
-**Show Absolute Path of Subdirs** #linux/ls 
+**Show Absolute Path of Subdirs**  #linux/ls 
 ```bash
 ls -dv1 $PWD/*
 ```
