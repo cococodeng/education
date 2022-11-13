@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Git Quick Tips",
+      "path": "Git Notes/Git Quick Tips.md"
+    },
+    {
+      "basename": "git-name-cyrillics",
+      "path": "Git Notes/Git How To/git-name-cyrillics.md"
+    },
+    {
+      "basename": "Current Date-Time Template",
+      "path": "Obsidian Extras/Obsidian Templates/Current Date-Time Template.md"
+    },
+    {
+      "basename": "To-Do Template",
+      "path": "Obsidian Extras/Obsidian Templates/To-Do Template.md"
+    },
+    {
       "basename": "SWTM-2088_Atlassian-Git-Cheatsheet",
       "path": "Git Notes/Git Cheatsheets/SWTM-2088_Atlassian-Git-Cheatsheet.pdf"
     },

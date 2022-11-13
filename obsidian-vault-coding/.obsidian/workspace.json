@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cf08cc9967d8f060",
+        "id": "834e7cd082e46be0",
         "type": "tabs",
         "children": [
           {
-            "id": "04165cee79fe07ee",
+            "id": "5a48c2a60cd01044",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -156,17 +156,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "04165cee79fe07ee",
+  "active": "5a48c2a60cd01044",
   "lastOpenFiles": [
+    "Git Notes/Git Quick Tips.md",
+    "Git Notes/Git How To/git-name-cyrillics.md",
+    "Obsidian Extras/Obsidian Templates/Current Date-Time Template.md",
+    "Obsidian Extras/Obsidian Templates/To-Do Template.md",
     "Git Notes/Git Cheatsheets/SWTM-2088_Atlassian-Git-Cheatsheet.pdf",
     "Git Notes/Git Cheatsheets/git-cheat-sheet-education.pdf",
     "Coding Guides.md",
     "Education Plan.md",
     "Inspiration.md",
-    "Coding Videos.md",
-    "Coding Books List.md",
-    "Notes.md",
-    "Linux Notes/Linux Quick Tips.md",
-    "Periodic Notes/Daily Notes/2022-11-11.md"
+    "Coding Videos.md"
   ]
 }
