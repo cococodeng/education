@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "834e7cd082e46be0",
+        "id": "a49fd1eb6ad3b877",
         "type": "tabs",
         "children": [
           {
-            "id": "5a48c2a60cd01044",
+            "id": "0e82a4ca8befac2d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -60,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#linux/ls",
+                "query": "tag:#linux/grep",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,8 +162,10 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "5a48c2a60cd01044",
+  "active": "0e82a4ca8befac2d",
   "lastOpenFiles": [
+    "Linux Notes/Linux Quick Tips.md",
+    "Notes.md",
     "Git Notes/Git Quick Tips.md",
     "Git Notes/Git How To/git-name-cyrillics.md",
     "Obsidian Extras/Obsidian Templates/Current Date-Time Template.md",
@@ -165,8 +173,6 @@
     "Git Notes/Git Cheatsheets/SWTM-2088_Atlassian-Git-Cheatsheet.pdf",
     "Git Notes/Git Cheatsheets/git-cheat-sheet-education.pdf",
     "Coding Guides.md",
-    "Education Plan.md",
-    "Inspiration.md",
-    "Coding Videos.md"
+    "Education Plan.md"
   ]
 }

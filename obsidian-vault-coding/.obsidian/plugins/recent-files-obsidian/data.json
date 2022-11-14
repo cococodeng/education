@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Notes",
+      "path": "Notes.md"
+    },
+    {
+      "basename": "Linux Quick Tips",
+      "path": "Linux Notes/Linux Quick Tips.md"
+    },
+    {
       "basename": "Git Quick Tips",
       "path": "Git Notes/Git Quick Tips.md"
     },
@@ -43,14 +51,6 @@
     {
       "basename": "Coding Books List",
       "path": "Coding Books List.md"
-    },
-    {
-      "basename": "Notes",
-      "path": "Notes.md"
-    },
-    {
-      "basename": "Linux Quick Tips",
-      "path": "Linux Notes/Linux Quick Tips.md"
     }
   ],
   "omittedPaths": [],

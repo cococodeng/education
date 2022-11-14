@@ -55,6 +55,10 @@ compgen -acbk
 ```bash
 compgen -ac | grep -iF "utilityNAME"
 ```
+**Grep all**
+```bash
+some_command | grep ""
+```
 **Grep case insensitive fixed string** #linux/grep
 ```bash
 grep -iF "success..." file1
@@ -79,4 +83,21 @@ find "$PWD" -name "*test*"
 **Cat Multiple Files**
 ```bash
 xargs cat < list_of_filepathes_saparated_by_newlines
+```
+
+**Yum Package Manager**
+```bash
+# Add repo to manager
+sudo yum-config-manager --add-repo https://path-to.repo
+# Update PACKAGENAME package
+sudo yum update PACKAGENAME
+# Update All packages
+sudo yum update
+```
+
+#linux/cat
+**Pass pipe output to text editor**
+```bash
+# No White Space "<(cat)" is important!
+SomeProcess | SomeTextEditor <(cat)
 ```
