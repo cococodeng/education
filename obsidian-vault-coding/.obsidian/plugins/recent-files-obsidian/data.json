@@ -1,16 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "Coding Books List",
+      "path": "Coding Books List.md"
+    },
+    {
+      "basename": "Coding Guides",
+      "path": "Coding Guides.md"
+    },
+    {
+      "basename": "Coding Videos",
+      "path": "Coding Videos.md"
+    },
+    {
+      "basename": "Education Plan",
+      "path": "Education Plan.md"
+    },
+    {
+      "basename": "Inspiration",
+      "path": "Inspiration.md"
+    },
+    {
       "basename": "Notes",
       "path": "Notes.md"
     },
     {
-      "basename": "Linux Quick Tips",
-      "path": "Linux Notes/Linux Quick Tips.md"
+      "basename": "Git Push",
+      "path": "Git Notes/Git Push.md"
     },
     {
       "basename": "Git Quick Tips",
       "path": "Git Notes/Git Quick Tips.md"
+    },
+    {
+      "basename": "Git Attributes",
+      "path": "Git Notes/Git Attributes.md"
+    },
+    {
+      "basename": "Git Log",
+      "path": "Git Notes/Git Log.md"
+    },
+    {
+      "basename": "Git pre-commit",
+      "path": "Git Notes/Git pre-commit.md"
+    },
+    {
+      "basename": "Python",
+      "path": "Python Notes/Python.md"
+    },
+    {
+      "basename": "python-venv",
+      "path": "Python Notes/howto python/python-venv.md"
+    },
+    {
+      "basename": "pip-libraries-quick-tips",
+      "path": "Python Notes/howto python/pip-libraries-quick-tips.md"
+    },
+    {
+      "basename": "Linux Quick Tips",
+      "path": "Linux Notes/Linux Quick Tips.md"
     },
     {
       "basename": "git-name-cyrillics",
@@ -31,26 +79,6 @@
     {
       "basename": "git-cheat-sheet-education",
       "path": "Git Notes/Git Cheatsheets/git-cheat-sheet-education.pdf"
-    },
-    {
-      "basename": "Coding Guides",
-      "path": "Coding Guides.md"
-    },
-    {
-      "basename": "Education Plan",
-      "path": "Education Plan.md"
-    },
-    {
-      "basename": "Inspiration",
-      "path": "Inspiration.md"
-    },
-    {
-      "basename": "Coding Videos",
-      "path": "Coding Videos.md"
-    },
-    {
-      "basename": "Coding Books List",
-      "path": "Coding Books List.md"
     }
   ],
   "omittedPaths": [],

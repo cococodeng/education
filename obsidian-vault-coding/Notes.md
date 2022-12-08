@@ -1,6 +1,5 @@
 #todo
 TODO: Перенести важные regexp шаблоны в гайд из ipynb.
-~~TODO: sqash last two commits in one~~
 
 https://www.tecmint.com/ifconfig-command-examples/
 
@@ -26,3 +25,23 @@ https://www.tecmint.com/ifconfig-command-examples/
 
 https://www.baeldung.com/linux/join-multiple-lines
 https://www.unix.com/shell-programming-and-scripting/256241-how-concatenate-grep-results.html
+
+---
+
+По проекту Python-Tray-Notificatios:
+https://stackoverflow.com/questions/12575708/notification-using-python
+https://www.youtube.com/watch?v=5EHEG4gMCNs
+
+
+---
+https://stackoverflow.com/questions/5697750/what-exactly-does-the-u-do-git-push-u-origin-master-vs-git-push-origin-ma
+https://www.youtube.com/results?search_query=%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+linux
+https://www.youtube.com/watch?v=dyStpbrCBIE
+https://www.youtube.com/watch?v=kZqqk1tixfk
+
+
+---
+
+#ide-notes/vscode
+
+https://vscode.one/new-tab-vscode/

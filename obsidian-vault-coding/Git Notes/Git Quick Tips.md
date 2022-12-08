@@ -5,6 +5,8 @@
 git commit --amend
 # Reset commit author, Reset commit date-time
 git commit --amend --reset-author --no-edit
+# Reset commit date to current
+git commit --amend --date=now --no-edit
 ```
 # Push
 **Git Push to GitHub repo** #git/push [[Git Push]]
@@ -71,9 +73,10 @@ git fetch origin master
 git diff HEAD FETCH_HEAD
 ```
 > Отобразить отличия локальной ветки от удалённой (несмёрженный коммит с gerrit.review) 
-> Где `refs/changes/61/161/37`
-> можно взять из `Download` блока выбранного патчсета.
+> Где `refs/changes/61/161/37` (37 - номер патчсета)
+> можно взять из `Download -> Cherry-Pick` блока выбранного патчсета.
 ```bash
+# Отобразить отличия текущего коммита от коммита из Gerrit-Review (Для патчсета 37)
 git fetch ssh://USER_NAME@REPO_WEBSITE:29418/REPO_NAME refs/changes/61/161/37 && git diff FETCH_HEAD -R
 # Отобразить отличия от добавленных в INDEX файлов
 git diff --cached
@@ -147,3 +150,4 @@ git config --list --show-origin
 #Also show 'system/global/local':
 git config --list --show-origin --show-scope
 ```
+

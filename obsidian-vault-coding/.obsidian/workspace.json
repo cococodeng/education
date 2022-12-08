@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a49fd1eb6ad3b877",
+        "id": "e6c1fdb0ac864b6e",
         "type": "tabs",
         "children": [
           {
-            "id": "0e82a4ca8befac2d",
+            "id": "4a5319e9a679cb54",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -32,7 +27,7 @@
       {
         "id": "7519a0b534a0ae8c",
         "type": "tabs",
-        "dimension": 52.714285714285715,
+        "dimension": 74.24547283702213,
         "children": [
           {
             "id": "324a1ceacde8a426",
@@ -51,21 +46,14 @@
               "type": "starred",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "aa0d612bc2e4ea93",
-        "type": "tabs",
-        "dimension": 28.999999999999996,
-        "children": [
+          },
           {
             "id": "2aa5262b53530cef",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#linux/grep",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +67,7 @@
       {
         "id": "43a9da76c6ab4cfe",
         "type": "tabs",
-        "dimension": 18.285714285714285,
+        "dimension": 25.754527162977865,
         "children": [
           {
             "id": "2e07ba2bf605e477",
@@ -110,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,17 +149,17 @@
     "direction": "horizontal",
     "width": 316.5
   },
-  "active": "0e82a4ca8befac2d",
+  "active": "4a5319e9a679cb54",
   "lastOpenFiles": [
-    "Linux Notes/Linux Quick Tips.md",
-    "Notes.md",
-    "Git Notes/Git Quick Tips.md",
-    "Git Notes/Git How To/git-name-cyrillics.md",
-    "Obsidian Extras/Obsidian Templates/Current Date-Time Template.md",
-    "Obsidian Extras/Obsidian Templates/To-Do Template.md",
-    "Git Notes/Git Cheatsheets/SWTM-2088_Atlassian-Git-Cheatsheet.pdf",
-    "Git Notes/Git Cheatsheets/git-cheat-sheet-education.pdf",
+    "Coding Books List.md",
     "Coding Guides.md",
-    "Education Plan.md"
+    "Coding Videos.md",
+    "Education Plan.md",
+    "Inspiration.md",
+    "Notes.md",
+    "Git Notes/Git Push.md",
+    "Git Notes/Git Quick Tips.md",
+    "Git Notes/Git Attributes.md",
+    "Git Notes/Git Log.md"
   ]
 }

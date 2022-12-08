@@ -7,3 +7,7 @@
 ```regexp
 ^.*(word1).*(word2).*$
 ```
+**Search for non "<" character**
+```
+^[^<]*$
+```
