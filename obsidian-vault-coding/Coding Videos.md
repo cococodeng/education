@@ -41,4 +41,10 @@ https://www.youtube.com/watch?v=m-GIJOEh798
 https://www.youtube.com/watch?v=fbP2gyy5aE0
 https://www.youtube.com/watch?v=75WBE_qbpGk
 
+---
 
+https://www.youtube.com/watch?v=0hrEaA3N3lk
+Git merge
+https://www.youtube.com/watch?v=PXK1hIifpWU
+https://www.youtube.com/watch?v=qUeud6DvOWI
+https://www.youtube.com/watch?v=CFRhGnuXG-4

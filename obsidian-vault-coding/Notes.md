@@ -45,3 +45,7 @@ https://www.youtube.com/watch?v=kZqqk1tixfk
 #ide-notes/vscode
 
 https://vscode.one/new-tab-vscode/
+
+
+https://towardsdatascience.com/whats-the-meaning-of-single-and-double-underscores-in-python-3d27d57d6bd1
+https://dbader.org/blog/meaning-of-underscores-in-python
