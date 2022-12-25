@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Coding Books List",
-      "path": "Coding Books List.md"
-    },
-    {
-      "basename": "Coding Guides",
-      "path": "Coding Guides.md"
+      "basename": "Notes",
+      "path": "Notes.md"
     },
     {
       "basename": "Coding Videos",
@@ -21,8 +17,12 @@
       "path": "Inspiration.md"
     },
     {
-      "basename": "Notes",
-      "path": "Notes.md"
+      "basename": "Coding Books List",
+      "path": "Coding Books List.md"
+    },
+    {
+      "basename": "Coding Guides",
+      "path": "Coding Guides.md"
     },
     {
       "basename": "Git Push",
