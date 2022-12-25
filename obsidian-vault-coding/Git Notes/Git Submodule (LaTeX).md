@@ -2,7 +2,7 @@
 https://gerrit.companyname.com/admin/repos/mcom03/uspd,general
 
 Делаем так, т.к. этот метод подтягивает обновления сабмодуля из remote-ветки.
-```
+```bash
 # Обновляет субмодуль до состояния коммита-родителя
 git submodule update --init 
 

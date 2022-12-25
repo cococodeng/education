@@ -2,6 +2,7 @@
   "pinned": [
     "insert-template",
     "file-explorer:move-file",
+    "file-explorer:reveal-active-file",
     "obsidian-admonition:insert-callout",
     "editor:fold-all",
     "editor:unfold-all",

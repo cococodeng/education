@@ -1,12 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "Notes",
-      "path": "Notes.md"
+      "basename": "Coding Books List",
+      "path": "Coding Books List.md"
+    },
+    {
+      "basename": "Git Branch",
+      "path": "Git Notes/Git Branch.md"
+    },
+    {
+      "basename": "remove-branch-local-and-remote",
+      "path": "Git Notes/Git How To/remove-branch-local-and-remote.md"
+    },
+    {
+      "basename": "remove-branch-local-and-remote",
+      "path": "Git Notes/howto git/remove-branch-local-and-remote.md"
+    },
+    {
+      "basename": "Git Difftool, Mergetool",
+      "path": "Git Notes/Git Difftool, Mergetool.md"
+    },
+    {
+      "basename": "Regexp Guide",
+      "path": "Regexp Notes/Regexp Guide.md"
+    },
+    {
+      "basename": "regexp-quick-tips",
+      "path": "Regexp Notes/regexp-quick-tips.md"
+    },
+    {
+      "basename": "Readme - Unique Notes",
+      "path": "Periodic Notes/Unique Notes/Readme - Unique Notes.md"
+    },
+    {
+      "basename": "Linux Quick Tips",
+      "path": "Linux Notes/Linux Quick Tips.md"
+    },
+    {
+      "basename": "Git Submodule (LaTeX)",
+      "path": "Git Notes/Git Submodule (LaTeX).md"
+    },
+    {
+      "basename": "Git Submodule",
+      "path": "Git Notes/Git Submodule.md"
+    },
+    {
+      "basename": "Git CRLF DOS UNIX",
+      "path": "Git Notes/Git CRLF DOS UNIX.md"
+    },
+    {
+      "basename": "Git Attributes",
+      "path": "Git Notes/Git Attributes.md"
+    },
+    {
+      "basename": "Git Oneliners",
+      "path": "Git Notes/Git Oneliners.md"
     },
     {
       "basename": "Coding Videos",
       "path": "Coding Videos.md"
+    },
+    {
+      "basename": "Coding Guides",
+      "path": "Coding Guides.md"
     },
     {
       "basename": "Education Plan",
@@ -17,12 +73,8 @@
       "path": "Inspiration.md"
     },
     {
-      "basename": "Coding Books List",
-      "path": "Coding Books List.md"
-    },
-    {
-      "basename": "Coding Guides",
-      "path": "Coding Guides.md"
+      "basename": "Notes",
+      "path": "Notes.md"
     },
     {
       "basename": "Git Push",
@@ -31,10 +83,6 @@
     {
       "basename": "Git Quick Tips",
       "path": "Git Notes/Git Quick Tips.md"
-    },
-    {
-      "basename": "Git Attributes",
-      "path": "Git Notes/Git Attributes.md"
     },
     {
       "basename": "Git Log",
@@ -55,10 +103,6 @@
     {
       "basename": "pip-libraries-quick-tips",
       "path": "Python Notes/howto python/pip-libraries-quick-tips.md"
-    },
-    {
-      "basename": "Linux Quick Tips",
-      "path": "Linux Notes/Linux Quick Tips.md"
     },
     {
       "basename": "git-name-cyrillics",
@@ -82,5 +126,6 @@
     }
   ],
   "omittedPaths": [],
-  "maxLength": null
+  "maxLength": null,
+  "openType": "tab"
 }

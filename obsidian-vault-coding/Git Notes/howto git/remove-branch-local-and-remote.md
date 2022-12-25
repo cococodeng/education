@@ -1,8 +1,10 @@
 # Executive Summary
 
-```
+```sh
 git push -d <remote_name> <branchname>
+# ex: git push -d origin aux_branch
 git branch -d <branchname>
+# ex: git branch -d aux_branch
 ```
 **Note:** In most cases, `<remote_name>` will be `origin`.
 
