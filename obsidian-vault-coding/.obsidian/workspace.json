@@ -4,28 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "68cb176ed5e800bd",
+        "id": "87aeb664ab303bea",
         "type": "tabs",
         "children": [
           {
-            "id": "cea97c01e6d58c27",
+            "id": "7b6d733795a55931",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Books List.md",
+                "file": "Linux Notes/Linux Quick Tips.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
-            }
-          },
-          {
-            "id": "3f4d228de1a9e8df",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -66,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git checkout -b",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "43a9da76c6ab4cfe",
@@ -111,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Books List.md",
+                "file": "Linux Notes/Linux Quick Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,17 +189,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cea97c01e6d58c27",
+  "active": "7b6d733795a55931",
   "lastOpenFiles": [
+    "Git Notes/Git Authentication.md",
+    "Coding Guides.md",
+    "Coding Books List.md",
+    "Git Notes/Git How To/change-git-commit-author.md",
+    "Git Notes/howto git/change-git-commit-author.md",
+    "Git Notes/howto git/add-token-auth-via-HTTPS.md",
+    "Git Notes/Git Config.md",
     "Git Notes/Git Branch.md",
     "Git Notes/Git How To/remove-branch-local-and-remote.md",
-    "Git Notes/howto git/remove-branch-local-and-remote.md",
-    "Git Notes/Git Difftool, Mergetool.md",
-    "Regexp Notes/Regexp Guide.md",
-    "Regexp Notes/regexp-quick-tips.md",
-    "Periodic Notes/Unique Notes/Readme - Unique Notes.md",
-    "Linux Notes/Linux Quick Tips.md",
-    "Git Notes/Git Submodule (LaTeX).md",
-    "Git Notes/Git Submodule.md"
+    "Git Notes/howto git/remove-branch-local-and-remote.md"
   ]
 }

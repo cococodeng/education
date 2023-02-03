@@ -55,7 +55,7 @@ compgen -acbk
 ```bash
 compgen -ac | grep -iF "utilityNAME"
 ```
-**Grep all**
+**Grep all output from command**
 ```bash
 some_command | grep ""
 ```

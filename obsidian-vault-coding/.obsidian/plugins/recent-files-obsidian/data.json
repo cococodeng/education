@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux Quick Tips",
+      "path": "Linux Notes/Linux Quick Tips.md"
+    },
+    {
+      "basename": "Git Authentication",
+      "path": "Git Notes/Git Authentication.md"
+    },
+    {
+      "basename": "Coding Guides",
+      "path": "Coding Guides.md"
+    },
+    {
       "basename": "Coding Books List",
       "path": "Coding Books List.md"
+    },
+    {
+      "basename": "change-git-commit-author",
+      "path": "Git Notes/Git How To/change-git-commit-author.md"
+    },
+    {
+      "basename": "change-git-commit-author",
+      "path": "Git Notes/howto git/change-git-commit-author.md"
+    },
+    {
+      "basename": "Git Config",
+      "path": "Git Notes/Git Config.md"
     },
     {
       "basename": "Git Branch",
@@ -33,10 +57,6 @@
       "path": "Periodic Notes/Unique Notes/Readme - Unique Notes.md"
     },
     {
-      "basename": "Linux Quick Tips",
-      "path": "Linux Notes/Linux Quick Tips.md"
-    },
-    {
       "basename": "Git Submodule (LaTeX)",
       "path": "Git Notes/Git Submodule (LaTeX).md"
     },
@@ -59,10 +79,6 @@
     {
       "basename": "Coding Videos",
       "path": "Coding Videos.md"
-    },
-    {
-      "basename": "Coding Guides",
-      "path": "Coding Guides.md"
     },
     {
       "basename": "Education Plan",
